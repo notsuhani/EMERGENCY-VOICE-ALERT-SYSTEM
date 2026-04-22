@@ -62,6 +62,17 @@ Open frontend/index.html in your browser
 
 ## 📸 Demo Screenshots
 
+### 🖥️ UI
+![UI](assets/ui.png)
+
+### 🎙️ Voice Detection
+![Voice](assets/voice.png)
+
+### 🤖 AI Response
+![AI](assets/ai.png)
+
+### ⚙️ Backend Running
+![Backend](assets/backend.png)
 
 
 ---
