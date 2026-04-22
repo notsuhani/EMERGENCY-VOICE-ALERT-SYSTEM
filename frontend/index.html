@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SafeSpeak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🚨 SafeSpeak</h1>
+        <p class="subtitle">AI Emergency Voice Alert System</p>
+
+        <div class="card">
+
+            <div class="location">
+                📍 Location: <span id="location">Fetching...</span>
+            </div>
+
+            <button onclick="startListening()" class="btn" id="micBtn">
+                🎙️ Start Voice Alert
+            </button>
+
+            <div class="status-box">
+                <p id="status">Click and speak your emergency...</p>
+            </div>
+
+        </div>
+
+        <div class="history">
+            <h3>📜 Alert History</h3>
+            <ul id="historyList"></ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
